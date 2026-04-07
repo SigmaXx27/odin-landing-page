@@ -95,7 +95,7 @@ h1 {
     padding: 40px;
 }
 .box-1-img {
-    border:2px solid #3882f6;
+    border:1px solid #3882f6;
     border-radius: 12px;
     box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
     object-fit: cover;
@@ -107,4 +107,73 @@ h1 {
     transform: scale(1.05);
     cursor: grab;
     border-color: #1d4ed8;
+}
+h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.sect-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    padding: 50px 15%;
+}
+
+.one {
+    text-align: center;
+}
+
+.two {
+    display: flex;
+    text-align: left;
+    align-self: flex-end;
+    font-weight: 500;
+}
+
+.sect-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 50px;
+    color: white;
+}
+
+.call-1 {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 80px;
+    width: 60%;
+}
+.call-2 {
+    display: flex;
+    flex-direction: column;
+}
+.cta-button2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    color: white;
+    padding: 0px 24px;
+    border-radius: 4px;
+}
+
+[aria-label="attribute"] {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
 }
